@@ -4,7 +4,7 @@ This project includes the data, results, plots for paper "On computing with some
 
 [TOC]
 
-#### Data File ####
+### Data File ###
 
 The benchmark instances are stored in .mat format:
 
@@ -15,9 +15,13 @@ The benchmark instances are stored in .mat format:
 
 
 
-#### Experimental Setting ####
+### Experimental Setting ###
 
 We ran our experiments under Windows, on an Intel Xeon E5-2667 v4 @ 3.20 GHz processor equipped with 8 physical cores (16 virtual cores) and 128 GB of RAM. We implemented our code in Matlab using the commercial software Knitro, version 12.4, as our nonlinear-programming solver.
+
+
+
+### Results ###
 
 #### Results-unconstrained ####
 
@@ -64,6 +68,8 @@ In the .xlsx file, each row represents the results for a specific $s$. The colum
 7. number of variables fixed to $0$ or $1$
 8. wall clock time for solving the continuous relaxations of MESP
 9. mixing upper bounds, mixing integrality gaps, and mixing parameter values.
+
+
 
 ### Graph ###
 
