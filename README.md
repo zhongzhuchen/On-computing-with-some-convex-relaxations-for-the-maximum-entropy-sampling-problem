@@ -30,3 +30,4 @@ In the .xlsx file, each row represents the results for a specific $s$. The colum
 8. wall clock time for solving the continuous relaxations of MESP
 9. cpu time for solving the continuous relaxations of MESP
 
+The experimental results for mixing upper bounds without linear constraint $Ax\le b$ are stored in .xlsx format: ``data63mix.xlsx``, ``data90mix.xlsx``, ``data124mix.xlsx``. In the .xlsx file, each row represents the results for a specific $s$. The columns include mixing upper bounds, mixing integrality gaps, and mixing parameter values.
