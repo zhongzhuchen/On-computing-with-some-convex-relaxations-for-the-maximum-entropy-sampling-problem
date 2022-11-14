@@ -49,7 +49,7 @@ In the .xlsx file, each row represents the results for a specific $s$. The colum
 
 #### Results-constrained ####
 
-The experimental results for upper bounds linear constraints $Ax\le b$ are stored in .xlsx format: ``data63_constr.xlsx``.
+The experimental results for upper bounds linear constraints $Ax\le b$ are stored in .xlsx format: ``data63mix_constr.xlsx``.
 
 In the .xlsx file, each row represents the results for a specific $s$. The columns represent:
 
@@ -61,9 +61,4 @@ In the .xlsx file, each row represents the results for a specific $s$. The colum
 6. number of variables fixed to $1$
 7. number of variables fixed to $0$ or $1$
 8. wall clock time for solving the continuous relaxations of MESP
-
-
-
-The experimental results for mixing upper bounds with linear constraint $Ax\le b$ are stored in .xlsx format: ``data63mix.xlsx``.
-
-In the .xlsx file, each row represents the results for a specific $s$. The columns include mixing upper bounds, mixing integrality gaps, and mixing parameter values.
+9. mixing upper bounds, mixing integrality gaps, and mixing parameter values.
