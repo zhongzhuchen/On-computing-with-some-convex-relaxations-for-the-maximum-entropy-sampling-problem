@@ -2,6 +2,8 @@
 @ Zhongzhu Chen (zhongzhc@umich.edu), Marcia Fampa, Jon Lee
 This project includes the data, results, plots for paper "On computing with some convex relaxations for the maximum-entropy sampling problem"."
 
+[TOC]
+
 #### Data File ####
 
 The benchmark instances are stored in .mat format:
@@ -62,3 +64,13 @@ In the .xlsx file, each row represents the results for a specific $s$. The colum
 7. number of variables fixed to $0$ or $1$
 8. wall clock time for solving the continuous relaxations of MESP
 9. mixing upper bounds, mixing integrality gaps, and mixing parameter values.
+
+### Graph ###
+
+The graph folder constains graphs corresponding to each instance matrix, denoted by their order in the file name. 
+
+Plots with ``_continous``, ``_time``, ``_mix``, ``_fixnum`` suffixes are for integrality gap, wall clock time, mixing bounds, number of fixed variables respectively.
+
+Plots with ``_lincon_`` in the name are plots for experiments with linear constraint $Ax \le b$. 
+
+Plot with ``Linx_time_ratio`` in name are time ratios for computing linx bound with BFGS/ Newton methods.
