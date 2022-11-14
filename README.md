@@ -1,4 +1,5 @@
 # On-computing-with-some-convex-relaxations-for-the-maximum-entropy-sampling-problem
+@ Zhongzhu Chen (zhongzhc@umich.edu), Marcia Fampa, Jon Lee
 This project includes the data, results, plots for paper "On computing with some convex relaxations for the maximum-entropy sampling problem"."
 
 #### Data File ####
