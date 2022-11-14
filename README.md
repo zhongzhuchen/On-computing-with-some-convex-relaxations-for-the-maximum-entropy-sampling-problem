@@ -43,3 +43,26 @@ In the .xlsx file, each row represents the results for a specific $s$. The colum
 The experimental results for mixing upper bounds without linear constraint $Ax\le b$ are stored in .xlsx format: ``data63mix.xlsx``, ``data90mix.xlsx``, ``data124mix.xlsx``.
 
 In the .xlsx file, each row represents the results for a specific $s$. The columns include mixing upper bounds, mixing integrality gaps, and mixing parameter values.
+
+
+
+#### Results-constrained ####
+
+The experimental results for upper bounds linear constraints $Ax\le b$ are stored in .xlsx format: ``data63_constr.xlsx``.
+
+In the .xlsx file, each row represents the results for a specific $s$. The columns represent:
+
+1. lower bounds computed by heuristic method
+2. upper bounds constructed from a dual feasible solution
+3. integrality gaps ($=$ upper bound $-$ lower bound)
+4. dualgaps when solving the continuous realxations of MESP
+5. number of variables fixed to $0$ 
+6. number of variables fixed to $1$
+7. number of variables fixed to $0$ or $1$
+8. wall clock time for solving the continuous relaxations of MESP
+
+
+
+The experimental results for mixing upper bounds with linear constraint $Ax\le b$ are stored in .xlsx format: ``data63mix.xlsx``.
+
+In the .xlsx file, each row represents the results for a specific $s$. The columns include mixing upper bounds, mixing integrality gaps, and mixing parameter values.
