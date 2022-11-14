@@ -5,10 +5,12 @@ This project includes the data, results, plots for paper "On computing with some
 
 The benchmark instances are stored in .mat format:
 
-1. ``data63.mat``: positive definite with order $63$ (environmental monitoring network)
-2. ``data90.mat``: positive definite with order $90$ (environmental monitoring network)
-3. ``data124.mat``: positive definite with order $124$ (temperature data from monitoring stations in the Pacific Northwest of the United States)
-4. ``dat2000.mat``: positive definite with order $2000$ and rank $949$ (reddit data)
+1. ``data63.mat``: positive definite with order $63$
+2. ``data90.mat``: positive definite with order $90$
+3. ``data124.mat``: positive definite with order $124$
+4. ``dat2000.mat``: positive definite with order $2000$ and rank $949$
+
+
 
 #### Experimental Setting ####
 
@@ -28,6 +30,16 @@ In the .xlsx file, each row represents the results for a specific $s$. The colum
 6. number of variables fixed to $1$
 7. number of variables fixed to $0$ or $1$
 8. wall clock time for solving the continuous relaxations of MESP
-9. cpu time for solving the continuous relaxations of MESP
+   * for linx bound, we present time with BFGS/ Newton method
 
-The experimental results for mixing upper bounds without linear constraint $Ax\le b$ are stored in .xlsx format: ``data63mix.xlsx``, ``data90mix.xlsx``, ``data124mix.xlsx``. In the .xlsx file, each row represents the results for a specific $s$. The columns include mixing upper bounds, mixing integrality gaps, and mixing parameter values.
+
+
+The experimental results for computing optimal scale fators $\gamma$ for linx bound are stored in .xlsx format: ``data63gammaH.xlsx``, ``data90gammaH.xlsx``, ``data124gammaH.xlsx``, ``data2000gammaH.xlsx``, .
+
+In the .xlsx file, each row represents the results for a specific $s$. The columns include optimal scale factor values and wall clock times.
+
+
+
+The experimental results for mixing upper bounds without linear constraint $Ax\le b$ are stored in .xlsx format: ``data63mix.xlsx``, ``data90mix.xlsx``, ``data124mix.xlsx``.
+
+In the .xlsx file, each row represents the results for a specific $s$. The columns include mixing upper bounds, mixing integrality gaps, and mixing parameter values.
