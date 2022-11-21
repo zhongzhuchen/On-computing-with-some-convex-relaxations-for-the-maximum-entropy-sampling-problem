@@ -6,7 +6,7 @@ This project includes the data, results, plots for: "On computing with some conv
 
 ### Data File ###
 
-The benchmark instances are stored in .mat format:
+The benchmark instances are stored in .mat format in the data folder:
 
 1. ``data63.mat``: positive definite of order $63$
 2. ``data90.mat``: positive definite of order $90$
@@ -39,6 +39,7 @@ In the .xlsx file, each row represents the results for a specific $s$. The colum
 8. wall clock time (seconds) for solving the continuous relaxations of MESP
    * for linx bound, we give time with BFGS/Newton method
 
+(for ``data2000.mat`` instance, because of singularity, we do not calculate complemenrary DDFact bound)
 
 
 The experimental results for computing optimal scale factors $\gamma$ for linx bound are stored in .xlsx format: ``data63gammaH.xlsx``, ``data90gammaH.xlsx``, ``data124gammaH.xlsx``, ``data2000gammaH.xlsx``, .
