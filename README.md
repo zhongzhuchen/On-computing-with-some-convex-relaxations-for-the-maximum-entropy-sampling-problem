@@ -40,13 +40,19 @@ In the .xlsx file, each row represents the results for a specific $s$. The colum
    * for linx bound, we give time with BFGS/Newton method
 
 (for ``data2000.mat`` instance, because of singularity, we do not calculate complemenrary DDFact bound)
-
+---
 
 The experimental results for computing optimal scale factors $\gamma$ for linx bound are stored in .xlsx format: ``data63gammaH.xlsx``, ``data90gammaH.xlsx``, ``data124gammaH.xlsx``, ``data2000gammaH.xlsx``, .
 
-In the .xlsx file, each row represents the results for a specific $s$. The columns include optimal scale factor values and wall clock times.
+In the .xlsx file, each row represents the results for a specific $s$. The columns include:
 
-
+1. number of iterations for calculating the optimal scale factor
+2. integrality gap attained by the obtained scale factor
+3. absolute residual at the obtained scale factor
+4. difference of integrality gaps between obtained scale factor and last scale factor
+5. obtained scale factor
+6. time comsumed for the optimization process
+---
 
 The experimental results for mixing upper bounds without linear constraint $Ax\le b$ are stored in .xlsx format: ``data63mix.xlsx``, ``data90mix.xlsx``, ``data124mix.xlsx``.
 
