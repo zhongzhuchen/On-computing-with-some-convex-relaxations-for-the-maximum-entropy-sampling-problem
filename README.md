@@ -87,4 +87,4 @@ Plots with ``_continous``, ``_time``, ``_mix``, ``_fixnum`` suffixes are for int
 
 Plots with ``_lincon_`` in the name are plots for experiments with linear constraint $Ax \le b$. 
 
-Plot with ``Linx_time_ratio`` in name are time ratios for computing linx bound with BFGS/Newton methods.
+Plots with ``Linx_time_ratio`` in name are time ratios for computing linx bound with BFGS/Newton methods.
