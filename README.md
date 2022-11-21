@@ -73,16 +73,17 @@ The experimental results for upper bounds linear constraints $Ax\le b$ are store
 
 In the .xlsx file, each row represents the results for a specific $s$. The columns represent:
 
-1. lower bound computed by a heuristic method
-2. upper bound constructed from a dual feasible solution
-3. integrality gap (= upper bound $-$ lower bound)
-4. duality gap when solving the continuous realxations of MESP
-5. number of variables fixed to $0$ 
-6. number of variables fixed to $1$
-7. number of variables fixed to $0$ or $1$
-8. wall clock time for solving the continuous relaxations of MESP
-9. mixing upper bound, mixing integrality gap, and mixing parameter value.
+(mix1: DDFact + comp DDFact, mix2: DDFact + linx, mix3: comp DDFact + linx)
 
+1. lower bound computed by a heuristic method
+2. upper bounds constructed from a dual feasible solution for single and mixing upper bounds 
+3. integrality gaps (= upper bound $-$ lower bound) for single and mixing upper bounds 
+4. duality gaps when solving the continuous realxations of MESP for single and mixing upper bounds 
+5. number of variables fixed to $0$ for single and mixing upper bounds 
+6. number of variables fixed to $1$ for single and mixing upper bounds 
+7. number of variables fixed to $0$ or $1$ for single and mixing upper bounds 
+8. mixing parameter values for mixing upper bounds 
+9. wall clock time for solving the continuous relaxations of MESP for single and mixing upper bounds 
 
 
 ### Graph ###
