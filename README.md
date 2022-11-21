@@ -42,7 +42,7 @@ In the .xlsx file, each row represents the results for a specific $s$. The colum
 
 ---
 
-The experimental results for computing optimal scale factors $\gamma$ for linx bound are stored in .xlsx format: ``data63gammaH.xlsx``, ``data90gammaH.xlsx``, ``data124gammaH.xlsx``, ``data2000gammaH.xlsx``, .
+The experimental results for computing optimal scale factors $\gamma$ for linx bound without linear constraint $Ax\le b$ are stored in .xlsx format: ``data63gammaH.xlsx``, ``data90gammaH.xlsx``, ``data124gammaH.xlsx``, ``data2000gammaH.xlsx``, .
 
 In the .xlsx file, each row represents the results for a specific $s$. The columns include:
 
