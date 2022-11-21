@@ -52,7 +52,7 @@ In the .xlsx file, each row represents the results for a specific $s$. The colum
 4. difference of integrality gaps between obtained scale factor and last scale factor
 5. obtained scale factor
 6. time comsumed for the optimization process
-7. 
+
 ---
 
 The experimental results for mixing upper bounds without linear constraint $Ax\le b$ are stored in .xlsx format: ``data63mix.xlsx``, ``data90mix.xlsx``, ``data124mix.xlsx``.
