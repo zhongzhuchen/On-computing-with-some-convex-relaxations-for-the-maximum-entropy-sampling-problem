@@ -57,8 +57,14 @@ In the .xlsx file, each row represents the results for a specific $s$. The colum
 
 The experimental results for mixing upper bounds without linear constraint $Ax\le b$ are stored in .xlsx format: ``data63mix.xlsx``, ``data90mix.xlsx``, ``data124mix.xlsx``.
 
-In the .xlsx file, each row represents the results for a specific $s$. The columns include mixing upper bounds, mixing integrality gaps, and mixing parameter values.
+In the .xlsx file, each row represents the results for a specific $s$. The columns include:
+1. single upper bounds
+2. mixing upper bounds
+3. single integrality gaps
+4. mixing integrality gaps
+5. mixing parameter values.
 
+Note that for ``data63.mat`` and ``data63.mat``, we mix DDFact and linx upper bounds. For ``data124.mat``, we mix DDFact and linx upper bounds, complementary DDFact and linx upper bounds, and complementary DDFact and DDFact upper bounds. 
 
 
 #### Results-constrained ####
