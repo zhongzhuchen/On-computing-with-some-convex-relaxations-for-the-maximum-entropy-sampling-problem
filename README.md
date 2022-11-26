@@ -6,7 +6,7 @@ This project includes the data, results, plots for: "On computing with some conv
 
 ### Data File ###
 
-The benchmark instances are stored in .mat format in the data folder:
+The benchmark instances are stored in .mat format in the data folder (the sources of the data are listed in section 3.2 of our paper):
 
 1. ``data63.mat``: positive definite of order $63$
 2. ``data90.mat``: positive definite of order $90$
@@ -23,14 +23,16 @@ We ran our experiments under Windows, on an Intel Xeon E5-2667 v4 @ 3.20 GHz pro
 
 ### Results ###
 
+Our results data files are stored in ``.xlsx`` format. All files contain the order of data matrix as the first column and cardinality of the subset to choose as the second column.
+
 #### Results-unconstrained ####
 
 The experimental results for upper bounds without linear constraint $Ax\le b$ are stored in .xlsx format: ``data63.xlsx``, ``data90.xlsx``, ``data124.xlsx``, ``data2000.xlsx``.
 
 In the .xlsx file, each row represents the results for a specific $s$. The columns represent:
 
-1. lower bound computed by a heuristic method
-2. upper bound constructed from a dual feasible solution
+1. lower bound computed by a heuristic method (column 'c')
+2. upper bounds constructed from dual feasible solutions (column 'E': factorization upper bound, column 'F': complementary factorization upper bound, column 'G': linx upper bound)
 3. integrality gap (= upper bound $-$ lower bound)
 4. duality gap when solving the continuous realxations of MESP
 5. number of variables fixed to $0$ 
