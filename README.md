@@ -118,14 +118,12 @@ In the .xlsx file, each row represents the results for a specific $s$. The colum
    * column ‘D’
 3. absolute residual at the obtained scale factor:
    * column ‘E’
-4. difference of integrality gaps between obtained scale factor and last scale factor:
+4. linx bound under obtained scale factor:
    * column ‘F’
-5. linx bound under obtained scale factor:
+5. obtained scale factor:
    * column ‘G’
-6. obtained scale factor:
+6. time comsumed for the optimization process (seconds):
    * column ‘H’
-7. time comsumed for the optimization process (seconds):
-   * column ‘I’
 
 ---
 
